@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-hearts">
+        <div class="heart">❤️</div>
+        <div class="heart">💕</div>
+        <div class="heart">❤️</div>
+        <div class="heart">💕</div>
+        <div class="heart">❤️</div>
+        <div class="heart">💕</div>
+        <div class="heart">❤️</div>
+        <div class="heart">💕</div>
+        <div class="heart">❤️</div>
+    </div>
+
+    <div class="container">
+        <div class="heart-animation">💕</div>
+        <h1>Happy Valentine's Day</h1>
+
+        <!-- Proposal Section -->
+        <div class="proposal-section">
+            <h2 style="color: #e63946; font-size: 2em; margin: 20px 0;">Will you be my Valentine? 💕</h2>
+            <div class="button-group">
+                <button class="yes-btn" onclick="acceptValentine()">Yes! 💕</button>
+                <button class="no-btn" id="noBtn" onclick="handleNoClick(event)">No</button>
+            </div>
+            <div id="acceptMessage" class="acceptance-message" style="display: none;">
+                <h3>🎉 You just made me the happiest person! 🎉</h3>
+                <p>I can't wait to celebrate Valentine's Day with you! 💌</p>
+            </div>
+        </div>
+
+        <!-- Special Message for Girlfriend -->
+        <div class="girlfriend-message" style="display: none;">
+            <h3>💕 For You, Anggee 💕</h3>
+            <div class="message-box">
+                <p>Hi loveee! Happy Valentines Day. First, I just want to remind you how much you mean to me. No matter how busy or tiring the day gets, sorry kung madalas kang naiinis sa'kin hahaha. hindi ko na papahabain pa dahil u know naman na I love you so much. I'm thankful that you exist. Be safe and always takecare! I love you, Anggee!!!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
